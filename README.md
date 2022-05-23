@@ -50,7 +50,7 @@ For this part of the assignment, use numerical and visual aggregation to calcula
 
 5. Note that your resulting plot should appear similar to the following image:
 
-![housing units](Starter_Code/Images/avg-sale-px-sq-foot-gross-rent.png)
+![avg sale](Starter_Code/Images/avg-sale-px-sq-foot-gross-rent.png)
 
 6. Use both the ```prices_square_foot_by_year``` DataFrame and interactive plots to answer the following questions:
 
@@ -79,19 +79,19 @@ For this part of the assignment, use interactive visualizations and widgets to e
 ### Build an Interactive Neighborhood Map
 For this part of the assignment, explore the geospatial relationships in the data by using interactive visualizations with hvPlot and GeoViews. To build your map, use the sfo_data_df DataFrame (created during the initial import), which includes the neighborhood location data with the average prices. To do all this, complete the following steps:
 
-1. Read the neighborhood_coordinates.csv file from the Resources folder into the notebook, and create a DataFrame named neighborhood_locations_df. Be sure to set the index_col of the DataFrame as “Neighborhood”.
+1. Read the ```neighborhood_coordinates.csv``` file from the ```Resources``` folder into the notebook, and create a DataFrame named ```neighborhood_locations_df```. Be sure to set the ```index_col``` of the DataFrame as “Neighborhood”.
 
-2. Using the original sfo_data_df Dataframe, create a DataFrame named all_neighborhood_info_df that groups the data by neighborhood. Aggregate the results by the mean of the group.
+2. Using the original ```sfo_data_df``` Dataframe, create a DataFrame named ```all_neighborhood_info_df``` that groups the data by neighborhood. Aggregate the results by the ```mean``` of the group.
 
-3. Review the two code cells that concatenate the neighborhood_locations_df DataFrame with the all_neighborhood_info_df DataFrame. Note that the first cell uses the Pandas concat function to create a DataFrame named all_neighborhoods_df. The second cell cleans the data and sets the “Neighborhood” column. Be sure to run these cells to create the all_neighborhoods_df DataFrame, which you’ll need to create the geospatial visualization.
+3. Review the two code cells that concatenate the ```neighborhood_locations_df``` DataFrame with the ```all_neighborhood_info_df``` DataFrame. Note that the first cell uses the [Pandas concat function](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.concat.html) to create a DataFrame named ```all_neighborhoods_df```. The second cell cleans the data and sets the “Neighborhood” column. Be sure to run these cells to create the ```all_neighborhoods_df``` DataFrame, which you’ll need to create the geospatial visualization.
 
-4. Using hvPlot with GeoViews enabled, create a points plot for the all_neighborhoods_df DataFrame. Be sure to do the following:
+4. Using hvPlot with GeoViews enabled, create a ```points``` plot for the ```all_neighborhoods_df``` DataFrame. Be sure to do the following:
 
-  - Set the geo parameter to True.
-  - Set the size parameter to “sale_price_sqr_foot”.
-  - Set the color parameter to “gross_rent”.
-  - Set the frame_width parameter to 700.
-  - Set the frame_height parameter to 500.
+  - Set the ```geo``` parameter to True.
+  - Set the ```size``` parameter to “sale_price_sqr_foot”.
+  - Set the ```color``` parameter to “gross_rent”.
+  - Set the ```frame_width``` parameter to 700.
+  - Set the ```frame_height``` parameter to 500.
   - Include a descriptive title.
  
 Note that your resulting plot should appear similar to the following image:

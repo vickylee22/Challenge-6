@@ -33,7 +33,7 @@ For this part of the assignment, use numerical and visual aggregation to calcula
 
 5. Answer the following question:
 
-  - What’s the overall trend in housing units over the period that you’re analyzing?
+    - What’s the overall trend in housing units over the period that you’re analyzing?
 
 ### Calculate and Plot the Average Sale Prices per Square Foot
 For this part of the assignment, use numerical and visual aggregation to calculate the average prices per square foot, and then visualize the results as a bar chart. To do so, complete the following steps:
@@ -54,9 +54,9 @@ For this part of the assignment, use numerical and visual aggregation to calcula
 
 6. Use both the ```prices_square_foot_by_year``` DataFrame and interactive plots to answer the following questions:
 
-  - Did any year experience a drop in the average sale price per square foot compared to the previous year?
+    - Did any year experience a drop in the average sale price per square foot compared to the previous year?
 
-  - If so, did the gross rent increase or decrease during that year?
+    - If so, did the gross rent increase or decrease during that year?
 
 ### Compare the Average Sale Prices by Neighborhood
 For this part of the assignment, use interactive visualizations and widgets to explore the average sale price per square foot by neighborhood. To do so, complete the following steps:
@@ -75,7 +75,7 @@ For this part of the assignment, use interactive visualizations and widgets to e
 
 6. Use the interactive visualization to answer the following question:
 
-  - For the Anza Vista neighborhood, is the average sale price per square foot for 2016 more or less than the price that’s listed for 2012?
+    - For the Anza Vista neighborhood, is the average sale price per square foot for 2016 more or less than the price that’s listed for 2012?
 
 ### Build an Interactive Neighborhood Map
 For this part of the assignment, explore the geospatial relationships in the data by using interactive visualizations with hvPlot and GeoViews. To build your map, use the sfo_data_df DataFrame (created during the initial import), which includes the neighborhood location data with the average prices. To do all this, complete the following steps:
@@ -88,12 +88,12 @@ For this part of the assignment, explore the geospatial relationships in the dat
 
 4. Using hvPlot with GeoViews enabled, create a ```points``` plot for the ```all_neighborhoods_df``` DataFrame. Be sure to do the following:
 
-  - Set the ```geo``` parameter to True.
-  - Set the ```size``` parameter to “sale_price_sqr_foot”.
-  - Set the ```color``` parameter to “gross_rent”.
-  - Set the ```frame_width``` parameter to 700.
-  - Set the ```frame_height``` parameter to 500.
-  - Include a descriptive title.
+    - Set the ```geo``` parameter to True.
+    - Set the ```size``` parameter to “sale_price_sqr_foot”.
+    - Set the ```color``` parameter to “gross_rent”.
+    - Set the ```frame_width``` parameter to 700.
+    - Set the ```frame_height``` parameter to 500.
+    - Include a descriptive title.
  
 Note that your resulting plot should appear similar to the following image:
 
@@ -101,11 +101,11 @@ Note that your resulting plot should appear similar to the following image:
 
 5. Use the interactive map to answer the following question:
   
-  - Which neighborhood has the highest gross rent, and which has the highest sale price per square foot?
+    - Which neighborhood has the highest gross rent, and which has the highest sale price per square foot?
   
 ### Compose Your Data Story
 Based on the visualizations that you created, answer the following questions:
   
-  -  How does the trend in rental income growth compare to the trend in sales prices? Does this same trend hold true for all the neighborhoods across San Francisco?
+    -  How does the trend in rental income growth compare to the trend in sales prices? Does this same trend hold true for all the neighborhoods across San Francisco?
 
-  - What insights can you share with your company about the potential one-click, buy-and-rent strategy that they're pursuing? Do neighborhoods exist that you would suggest for investment, and why?
+    - What insights can you share with your company about the potential one-click, buy-and-rent strategy that they're pursuing? Do neighborhoods exist that you would suggest for investment, and why?

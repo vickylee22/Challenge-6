@@ -74,6 +74,7 @@ For this part of the assignment, use interactive visualizations and widgets to e
 ![neighbor pricing](Starter_Code/Images/pricing-info-by-neighborhood.png)
 
 6. Use the interactive visualization to answer the following question:
+
   - For the Anza Vista neighborhood, is the average sale price per square foot for 2016 more or less than the price that’s listed for 2012?
 
 ### Build an Interactive Neighborhood Map
@@ -99,9 +100,12 @@ Note that your resulting plot should appear similar to the following image:
 ![geoviews](Starter_Code/Images/6-4-geoviews-plot.png)
 
 5. Use the interactive map to answer the following question:
+  
   - Which neighborhood has the highest gross rent, and which has the highest sale price per square foot?
-  - 
+  
 ### Compose Your Data Story
 Based on the visualizations that you created, answer the following questions:
+  
   -  How does the trend in rental income growth compare to the trend in sales prices? Does this same trend hold true for all the neighborhoods across San Francisco?
+
   - What insights can you share with your company about the potential one-click, buy-and-rent strategy that they're pursuing? Do neighborhoods exist that you would suggest for investment, and why?
